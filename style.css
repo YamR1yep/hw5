@@ -1,11 +1,87 @@
-h1 {
-  color: #000000;
-  font-size: 40px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1330px;
+  border: 5px solid #5a5555;
+  padding: 30px 30px;
+  margin: 10px;
+  background-image: url(./images/fitnesimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family:
+    "roboto" Arial,
+    sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: #ffffff;
+  background-color: #6060be18;
   text-align: center;
 }
-h2 {
-  color: #000000;
+p body {
+  color: #303030;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.4;
+  max-width: 70ch;
+  text-align: center;
 }
-body {
-  background-color: #a9a9a9;
+p {
+  color: #303030;
+  background: #ffffff44;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.4;
+  max-width: 70ch;
+  text-align: center;
+}
+.header {
+  width: 1265px;
+  border: 2px solid #000000;
+  border-radius: 9px;
+  padding: 30px;
+  margin: 10px;
+}
+.button {
+  background-color: #275c944d;
+  color: #ffffffcc;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transform: scale(0.95);
+}
+.footer {
+  width: 1265px;
+  border: 2px solid #000000;
+  border-radius: 9px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+}
+.main {
+  width: 1265px;
+  border: 2px solid #000000;
+  border-radius: 9px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
 }
